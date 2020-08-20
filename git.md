@@ -23,3 +23,7 @@ git branch branchName -D 删除分支
 ```
 git checkout branchName 
 ```
+6.合并分支
+```shell
+git merge <oterBranch>
+```

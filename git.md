@@ -62,9 +62,9 @@ git remote
 ```
 
 3. 删除远程仓库
-git remote remiove <仓库名称>
+git remote remove <仓库名称>
 ```shell
-git remote remiove github
+git remote remove github
 ```
 
 4. 上传代码到远程仓库

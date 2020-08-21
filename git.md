@@ -74,8 +74,8 @@ git push github dev
 ```
 
 5. 绑定默认分支
-```shell
 git push -u <仓库名称><分支名称>
+```shell
 # 第一次绑定
 git push github dev
 # 第二次提交

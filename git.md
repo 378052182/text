@@ -100,12 +100,37 @@ git remote  => origin
 git remote get-url origin => https://github.com/378052182/text.git
 ```
 
+-f 强制覆盖记录
+不要在公司的项目中操作这个项目 否则你要被开除
+```shell
+git push -f
+```
+
 7. 同步远程仓库
 拉取同步
 git pull
 ```shell
 git pull
 ```
+
+在修改代码之前 先同步然后再修改
+在提交代码到远程仓库的时候,如果本地和远程仓库不同步的话会报错
+
+8. 下载主分支意外的其他分支
+主分支已经克隆好了,想要下载dev开发分支
+这里使用fetch
+
+git fech <仓库名称> <远程分支名称>:<本地分支名称>中间使用冒号隔开
+"远程分支名称"可以和"本地分至名称"不同名 建议使用相同的名称 免得项目管理起来混乱
+
+```
+git fetch github dev:dev
+# github 是仓库名称
+#第一个dev是远程仓库的dev分支代码
+#第二个dev是下载到本地仓库时叫什么名字
+```
+
+
 
 
 

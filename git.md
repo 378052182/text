@@ -50,7 +50,7 @@ git config --global user.name "你的名字"
 1. 在本地添加一个远程仓库的地址
 git remote add <仓库名称><仓库地址>
 ```shell
-git remote add githup https://github.com/378052182/text.git
+git remote add github https://github.com/378052182/text.git
 
 # github 是仓库名称
 # https://github.com/378052182/text.git 是仓库地址

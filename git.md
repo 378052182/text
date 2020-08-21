@@ -100,6 +100,14 @@ git remote  => origin
 git remote get-url origin => https://github.com/378052182/text.git
 ```
 
+7. 同步远程仓库
+拉取同步
+git pull
+```shell
+git pull
+```
+
+
 
 
 
